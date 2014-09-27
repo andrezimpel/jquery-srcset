@@ -1,0 +1,36 @@
+{
+  "name": "sharpness",
+  "version": "0.0.1",
+  "homepage": "https://github.com/andrezimpel/sharpness",
+  "authors": [
+    "Andre Zimpel <az@yum.de>"
+  ],
+  "description": "sharpness is a small script to lazy load retina images.",
+  "main": "sharpness.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "retina",
+    "hi-res",
+    "images",
+    "lazy load",
+    "sharpness"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.9.0",
+    "bowser": "~0.7.1",
+    "demography": "~0.0.4"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  }
+}
