@@ -54,6 +54,11 @@ $('[data-hires]').sharpness({
 });
 ```
 
+the image tag should look like this:
+```html
+  <img src="/path/to/image.jpg" data-hires="/path/to/hi-res-image.jpg">
+```
+
 this will exclude IE8, IE9, and mobile devices.
 
 
