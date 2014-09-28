@@ -1,7 +1,7 @@
 sharpness
 ==========
 
-sharpness is a small script to add browser data to the body.
+sharpness is a small script to replace images with hi-res images to beautify the web.
 
 
 
