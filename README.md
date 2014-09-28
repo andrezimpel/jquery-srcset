@@ -37,6 +37,11 @@ then run:
 $('[data-hires]').sharpness();
 ```
 
+the image tag should look like this:
+```html
+<img src="/path/to/image.jpg" data-hires="/path/to/hi-res-image.jpg">
+```
+
 ### browser based usage
 ```html
 <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
@@ -52,11 +57,6 @@ then run:
 $('[data-hires]').sharpness({
   browsers: ['msie8', 'msie9', 'mobile']
 });
-```
-
-the image tag should look like this:
-```html
-<img src="/path/to/image.jpg" data-hires="/path/to/hi-res-image.jpg">
 ```
 
 this will exclude IE8, IE9, and mobile devices.
