@@ -7,7 +7,7 @@ use srcset in each and every browser today. display responsive and hi-res images
 
 ## do it
 <pre>
-bower install jquery-srcset
+bower install jquery.srcset
 </pre>
 
 ## quick start
@@ -16,10 +16,10 @@ Three quick start options are available:
 
 - [download the latest release](https://github.com/andrezimpel/jquery-srcset/archive/master.zip).
 - clone the repo: `git clone https://github.com/andrezimpel/jquery-srcset.git`.
-- install with [bower](http://bower.io): `bower install jquery-srcset`.
+- install with [bower](http://bower.io): `bower install jquery.srcset`.
 
 ## info
-jquery-srcset behaves like srcset should. it extends the functionality (width and density combined) of Safari on Mac and iOS. last but not least it add's support to older browsers, like that one a company killed recently. if you want to know more about srcset hit [this link](http://www.smashingmagazine.com/2013/08/21/webkit-implements-srcset-and-why-its-a-good-thing/) and read a nice article by smashing magazine.
+jquery-srcset behaves like srcset should. it extends the functionality (width and density combined) of Safari on Mac and iOS. last but not least it add's support to older browsers, like that one a company recently killed. if you want to know more about srcset hit [this link](http://www.smashingmagazine.com/2013/08/21/webkit-implements-srcset-and-why-its-a-good-thing/) and read a nice article by smashing magazine.
 
 
 ## usage
