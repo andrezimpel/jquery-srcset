@@ -53,7 +53,7 @@ that's it.
 ## options
 the following options are available
 ```js
-$('[data-hires]').jquery-srcset({
+$('[srcset]').srcset({
   // check if the image is available
   ajax: true // default: true
 });
