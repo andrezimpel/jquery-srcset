@@ -6,7 +6,7 @@
     "Andre Zimpel <az@yum.de>"
   ],
   "description": "use srcset in each and every browser today. display responsive and hi-res images.",
-  "main": "jQuery.srcset.js",
+  "main": "jquery.srcset.js",
   "moduleType": [
     "node"
   ],

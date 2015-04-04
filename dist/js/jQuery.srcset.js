@@ -1,5 +1,5 @@
 /* ========================================================================
-  * jQuery srcset plugin srcset.js v0.0.1
+  * jquery srcset plugin srcset.js v0.0.1
   * URL
   * ========================================================================
   * Copyright 2011-2015 Andre Zimpel, http://www.andrezimpel.com
