@@ -1,12 +1,12 @@
 {
-  "name": "sharpness",
+  "name": "jquery-srcset",
   "version": "0.0.1",
-  "homepage": "https://github.com/andrezimpel/sharpness",
+  "homepage": "https://github.com/andrezimpel/jquery-srcset",
   "authors": [
     "Andre Zimpel <az@yum.de>"
   ],
-  "description": "sharpness is a small script to lazy load retina images.",
-  "main": "sharpness.js",
+  "description": "use srcset in each and every browser today. display responsive and hi-res images.",
+  "main": "jQuery.srcset.js",
   "moduleType": [
     "node"
   ],
@@ -14,8 +14,11 @@
     "retina",
     "hi-res",
     "images",
-    "lazy load",
-    "sharpness"
+    "srcset",
+    "jquery",
+    "responsive",
+    "picture",
+    "size"
   ],
   "license": "MIT",
   "ignore": [
@@ -26,9 +29,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~1.9.0",
-    "bowser": "~0.7.1",
-    "demography": "~0.0.4"
+    "jquery": "~1.9.0"
   },
   "engines": {
     "node": ">= 0.9"

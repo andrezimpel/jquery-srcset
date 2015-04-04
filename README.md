@@ -1,7 +1,7 @@
 sharpness
 ==========
 
-sharpness is a small script to replace images with hi-res images to beautify the web.
+use srcset in each and every browser today. display responsive and hi-res images.
 
 
 

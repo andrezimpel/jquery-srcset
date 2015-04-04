@@ -17,7 +17,7 @@ gulp.task('scripts', function() {
   return gulp.src([
     './src/js/handle.js'
     ])
-    .pipe(concat('sharpness.js'))
+    .pipe(concat('jQuery.srcset.js'))
     // This will output the non-minified version
     .pipe(gulp.dest('./dist/js'))
     .pipe(gulp.dest('./'))
