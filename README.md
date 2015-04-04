@@ -1,4 +1,4 @@
-jquery-srcset
+jquery.srcset
 ==========
 
 use srcset in each and every browser today. display responsive and hi-res images.
