@@ -37,8 +37,7 @@ just include the following scripts:
 the image tag should look like this:
 ```html
 <img src="/path/to/image.jpg"
-     srcset="/path/to/image@2x.jpg 2x,
-             /path/to/image-mobile.jpg 320w 1x,
+     srcset="/path/to/image-mobile.jpg 320w 1x,
              /path/to/image-mobile@2x.jpg 320w 2x">
 ```
 
