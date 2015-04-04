@@ -18,6 +18,9 @@ Three quick start options are available:
 - clone the repo: `git clone https://github.com/andrezimpel/jquery-srcset.git`.
 - install with [bower](http://bower.io): `bower install jquery-srcset`.
 
+## info
+jquery-srcset behaves like srcset should. it extends the functionality (width and density combined) of Safari on Mac and iOS. last but not least it add's support to older browsers, like that one a company killed recently. if you want to know more about srcset hit [this link](http://www.smashingmagazine.com/2013/08/21/webkit-implements-srcset-and-why-its-a-good-thing/) and read a nice article by smashing magazine.
+
 
 ## usage
 
@@ -27,26 +30,16 @@ just include the following scripts:
 
 ```html
 <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
-<script src="path/to/bower_components/jquery-srcset/jquery-srcset.js"></script>
+<script src="/path/to/bower_components/jquery-srcset/jquery.srcset.js"></script>
 <script src="... others"></script>
-```
-
-then run:
-
-```js
-$('[data-hires]').jquery-srcset();
 ```
 
 the image tag should look like this:
 ```html
-<img src="/path/to/image.jpg" srcset="/path/to/image@2x.jpg 2x, /path/to/image-mobile.jpg 320w x1">
-```
-
-### browser based usage
-```html
-<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
-<script src="/path/to/bower_components/jquery-srcset/jquery.srcset.js"></script>
-<script src="... others"></script>
+<img src="/path/to/image.jpg"
+     srcset="/path/to/image@2x.jpg 2x,
+             /path/to/image-mobile.jpg 320w 1x,
+             /path/to/image-mobile@2x.jpg 320w 2x">
 ```
 
 then run:
@@ -54,6 +47,8 @@ then run:
 ```js
 $('[srcset]').srcset();
 ```
+
+that's it.
 
 
 ## options
